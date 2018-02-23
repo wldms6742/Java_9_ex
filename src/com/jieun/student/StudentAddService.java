@@ -2,7 +2,9 @@ package com.jieun.student;
 
 import java.util.Scanner;
 
-public class StudentAddService {
+import com.jieun.s1.Action;
+
+public class StudentAddService implements Action {
 //execute 메서드 생성
 	//내용은 매개변수로 받은 학생을 
 	//ㅅstudentdatabase에있는 students배열에 추가
