@@ -11,6 +11,7 @@ public class StudentController {
 
 	private Scanner sc;
 	private Action [] action;
+	
 	public StudentController() {
 		sc = new Scanner(System.in);
 		action = new Action[2];
